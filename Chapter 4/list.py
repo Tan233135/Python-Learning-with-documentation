@@ -36,3 +36,26 @@ print(my_list) #This will print the updated list
 
 '''We can also check if an element is present in a list'''
 print("Mango" in my_list)
+
+'''A list can contain another list as an element, which is called
+a nested list. We can access the elements of a nested list
+using multiple indices. For example:'''
+nested_list = [1, 2, [3, 4, 5], 6]
+print(nested_list[2]) #This will print the nested list [3, 4, 5]
+print(nested_list[2][0]) #This will print the first element of the nested list, which is 3
+
+'''A list can also contain a tuple as an element. 
+we can access the elements of the tuple using multiple indices
+as well. For example:'''
+list_with_tuple = [1, 2, (3, 4, 5), 6]
+print(list_with_tuple[2]) #This will print the tuple (3, 4, 5)
+print(list_with_tuple[2][0]) #This will print the first element of the tuple, which is 3
+
+'''If a list contains another list and a tuple as elements,
+we can access the elements of both the nested list and the tuple 
+using multiple indices. For example:'''
+complex_list = [1, 2, [3, 4, 5], (6, 7, 8), 9]
+print(complex_list[2]) #This will print the nested list [3, 4, 5]
+print(complex_list[3]) #This will print the tuple (6, 7, 8)
+print(complex_list[2][0]) #This will print the first element of the nested list, which is 3
+print(complex_list[3][0]) #This will print the first element of the tuple, which is 6

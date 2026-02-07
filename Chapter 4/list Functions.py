@@ -31,4 +31,12 @@ print(new_list)
 "item for item in my_list if item!='Apple'" 
 
 This line is a list comprehension that iterates through
-each item in the original list(my_list) and including '''
+each item in the original list(my_list) and including 
+only those items that are not equal to 'Apple' in the
+new list(new_list). The resulting new_list will contain
+all the elements of my_list except for 'Apple'.'''
+
+'''We can also use the del statement to remove an element
+from a list by its index. For example, to remove the first element of the list, we can do the following:'''
+del my_list[0]          
+print(my_list)
