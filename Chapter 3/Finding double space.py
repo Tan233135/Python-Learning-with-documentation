@@ -7,6 +7,5 @@ print(string.find("  ") != -1)
 print("  " in string)
 
 
-
 '''Replacing the double space with single space in a string.'''
 print(string.replace("  "," "))
