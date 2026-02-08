@@ -3,6 +3,9 @@ of key-value pairs. Each key is unique and maps to a value.
 Dictionaries are defined using curly braces {} and each key-value
 pair is separated by a colon.
 '''
+
+d = {} #This is an empty dictionary
+
 # Example of a dictionary
 marks= {
     "Tanvir": 85,
