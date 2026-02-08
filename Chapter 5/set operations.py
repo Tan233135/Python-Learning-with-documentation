@@ -17,3 +17,4 @@ print(difference_set) #This will print the difference of s1 and s2
 of two sets.'''
 symmetric_difference_set = s1.symmetric_difference(s2) #This will return a new set that is the symmetric difference of s1 and s2
 print(symmetric_difference_set) #This will print the symmetric difference of s1 and s2
+
