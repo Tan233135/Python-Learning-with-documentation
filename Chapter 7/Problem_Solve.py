@@ -15,3 +15,10 @@ for i in range(n):
 for i in range(n):
     if(l[i][0]=="S"):
         print(f"Good Morning, {l[i]}")
+
+'''Solve the question 1 using while loop'''
+x=int(input("Enter a number for multiplication:\t"))
+i=0
+while(i<=10):
+    print(f"{x} x {i} = {x*i}")
+    i+=1
