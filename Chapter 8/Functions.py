@@ -14,3 +14,14 @@ We can also think of it as a maths function.
             f(x) = equation = output
 '''
 
+def average(s):
+    a = sum(s)/len(s)
+    return a
+
+n = int(input("Enter the amount of number:\t"))
+s = []
+for i in range(n):
+    s.append(int(input(f"Enter The {i+1} number:\t")))
+
+ave=average(s)
+print(ave)
