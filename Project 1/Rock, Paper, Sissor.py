@@ -58,4 +58,3 @@ while(True):
        comp()
     else:
        print("Invalid input. Try again.")
-
