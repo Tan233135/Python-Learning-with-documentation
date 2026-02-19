@@ -41,20 +41,27 @@ while(True):
        win_or_loose()
        break
     elif(computer==player):
+       print(computer)
        print("Draw")
        point["comp"]+=0
        point["play"]+=0
     elif(computer=="rock" and player=="sissor"):
+       print(computer)
        comp()
     elif(computer=="rock" and player=="paper"):
+       print(computer)
        play()
     elif(computer=="paper" and player=="rock"):
+       print(computer)
        comp()
     elif(computer=="paper" and player=="sissor"):
+       print(computer)
        play()
     elif(computer=="sissor" and player=="rock"):
+       print(computer)
        play()
     elif(computer=="sissor" and player=="paper"):
+       print(computer)
        comp()
     else:
        print("Invalid input. Try again.")
