@@ -13,6 +13,6 @@ class Employee:
         print("Good Morning")
 
 
-tanvir = Employee()
+tanvir = Employee("Tanvir", 130000, "javascript")
 tanvir.greet()
 tanvir.getinfo()
