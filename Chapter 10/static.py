@@ -2,7 +2,10 @@ class Employee:
     language = "python"
     salary = 120000
 
-    def __init__(self):  #Dunder method which is automatically called
+    def __init__(self, name, salary, language):  #Dunder method which is automatically called
+        self.name=name
+        self.salary=salary
+        self.language=language
         print("I am creating an object")
 
     def getinfo(self):
@@ -14,5 +17,4 @@ class Employee:
 
 
 tanvir = Employee("Tanvir", 130000, "javascript")
-tanvir.greet()
-tanvir.getinfo()
+print(tanvir.name,tanvir.salary,tanvir.language)
