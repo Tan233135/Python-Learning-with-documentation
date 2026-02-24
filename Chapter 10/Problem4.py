@@ -22,4 +22,3 @@ a.hello()
 a.square()
 a.cube()
 a.sqrt()
-
